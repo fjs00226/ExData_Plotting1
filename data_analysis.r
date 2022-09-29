@@ -14,6 +14,8 @@ data_v1 <- rbind(data[which(data$Date == "2007-02-01"),],data[which(data$Date ==
 # Is the data complete?
 grep(FALSE, complete.cases(data_v1)) # 0 complete
 
+# making plots
+
 
 
 
